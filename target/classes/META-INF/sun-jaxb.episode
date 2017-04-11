@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.2.11 
+Vedere <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2017.04.11 alle 02:32:29 PM CEST 
+
+  -->
+  <bindings xmlns:tns="myNameSpace" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="countries.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:getCountryRequest">
+      <class ref="countries.wsdl.GetCountryRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getPersonRequest">
+      <class ref="countries.wsdl.GetPersonRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getCountryResponse">
+      <class ref="countries.wsdl.GetCountryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:country">
+      <class ref="countries.wsdl.Country"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getPersonResponse">
+      <class ref="countries.wsdl.GetPersonResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:person">
+      <class ref="countries.wsdl.Person"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:currency">
+      <typesafeEnumClass ref="countries.wsdl.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>

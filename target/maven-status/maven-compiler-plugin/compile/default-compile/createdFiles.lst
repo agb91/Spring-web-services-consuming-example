@@ -1,0 +1,12 @@
+countries\wsdl\ObjectFactory.class
+countries\wsdl\package-info.class
+countries\wsdl\Currency.class
+countries\wsdl\Person.class
+countries\wsdl\GetPersonResponse.class
+countries\wsdl\Country.class
+countries\wsdl\GetCountryRequest.class
+countries\wsdl\GetPersonRequest.class
+hello\Application.class
+hello\CountriesConfiguration.class
+countries\wsdl\GetCountryResponse.class
+hello\CountriesClient.class
